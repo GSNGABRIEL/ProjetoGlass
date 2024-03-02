@@ -32,7 +32,7 @@ p {
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
-    transition: opacity 1s;
+    transition: 1s;
 }
 
 .foto-legenda:hover figcaption {
@@ -40,7 +40,7 @@ p {
 }
 
 /* Formatação do Menu */
-#menu{
+#menu {
     display: block;
 }
 #menu ul {
@@ -49,16 +49,29 @@ p {
     position: absolute;
     top: -20px;
     left: 300px;
-
 }
 
-#menu li{
+#menu li {
     display: inline-block;
-    background-color: #dddddd;
+    background-color: #ddd;
     padding: 10px;
     margin: 2px;
+    transition: 1s;
 }
 
-#menu h1{
-   display: none; 
+#menu li:hover {
+    background-color: #606060;
+}
+
+#menu h1 {
+    display: none;
+}
+
+#menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #fff;
 }
