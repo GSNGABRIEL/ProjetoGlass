@@ -190,6 +190,7 @@ a:hover {
     background-color: #606060;
     vertical-align: top;
     font-weight: bold;
+    text-align: right;
 }
 
 #tabelaSpec .cd {
