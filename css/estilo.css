@@ -1,7 +1,8 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
 @font-face {
-    font-family: 'FonteLogo';
+    font-family: "FonteLogo";
     src: url(../fonts/bubblegum-sans-regular.otf);
 }
 
@@ -47,15 +48,16 @@ a:hover {
 }
 
 #cabecalho h1 {
-    font-family: 'FonteLogo', sans-serif;
+    font-family: "FonteLogo", sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
     padding: 0px;
     margin-bottom: 0px;
 }
+
 #cabecalho h2 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: "Titillium Web", sans-serif;
     color: #888;
     font-size: 15pt;
     margin-top: 0px;
@@ -94,6 +96,7 @@ a:hover {
 #menu {
     display: block;
 }
+
 #menu ul {
     list-style: none;
     text-transform: uppercase;
@@ -138,14 +141,14 @@ a:hover {
 
 #noticia-principal h2 {
     font-size: 13pt;
-    color: #606006;
+    color: #606060;
     background-color: #ddd;
     padding: 5px 0px;
     margin: 10px 0px;
 }
 
 #cabecalho-artigo h1 {
-    font-family: 'FonteLogo', serif;
+    font-family: "FonteLogo", serif;
     font-size: 20pt;
     color: #606060;
     margin-bottom: 0px;
@@ -219,7 +222,7 @@ a:hover {
 }
 
 #lateral h1 {
-    font-family: 'FonteLogo', serif;
+    font-family: "FonteLogo", serif;
     font-size: 20pt;
     color: #606060;
     margin: 0px;
