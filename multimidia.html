@@ -7,6 +7,7 @@
     <title>Google Glass</title>
     <!-- Importação de estilos(CSS) -->
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/media.css">
     <!-- importação de JS -->
     <script defer src="javascript/funcoes.js"></script>
 </head>
@@ -31,7 +32,8 @@
                     <li onmouseover="mudaFoto('images/fotos.png')" onmouseout="mudaFoto('images/multimidia.png')"><a
                             href="fotos.html">Fotos</a></li>
                     <li onmouseover="mudaFoto('images/multimidia.png')" onmouseout="mudaFoto('images/multimidia.png')">
-                        <a href="multimidia.html">Multimídia</a></li>
+                        <a href="multimidia.html">Multimídia</a>
+                    </li>
                     <li onmouseover="mudaFoto('images/contato.png')" onmouseout="mudaFoto('images/multimidia.png')"><a
                             href="fale-conosco.html">Fale
                             conosco</a></li>
@@ -39,17 +41,23 @@
             </nav>
         </header>
 
-        Glass > Multimídia
-        Sons e Vídeos
-        por Gustavo Guanabara
-        Atualizado em 01/Maio/2013
+        <section id="corpoFull">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                    </hgroup>
+                </header>
 
-
-        Áudio e Vídeo
-
-        [AQUI ENTRA UM VÍDEO]
-        [AQUI ENTRA UM ÁUDIO]
-
+                <div id="tvRadio">
+                    <audio src="audio/2009-lovers-carvings-bibio.mp3" id="musica" controls>Desculpe mas não carregar o audio</audio>
+                    <video src="video/getting-started.mp4" id="filme" controls poster="images/video-mini03.jpg">Desculpe mas não carregar o video</video>
+                </div>
+            </article>
+        </section>
         <footer id="rodape">
             <p>
                 Copyright &copy; 2013 - by Gustavo Guanabara <br>
